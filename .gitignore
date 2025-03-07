@@ -1,0 +1,16 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform working directories and lock files
+.terraform/
+.terraform.lock.hcl
+
+# Ignore variable files (if containing secrets)
+*.tfvars
+*.auto.tfvars
+
+# Logs and debug files
+crash.log
+terraform.log
+
